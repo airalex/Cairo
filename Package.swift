@@ -7,9 +7,9 @@ let package = Package(
             name: "Cairo")
     ],
     dependencies: [
-        .Package(url: "https://github.com/PureSwift/CCairo.git", majorVersion: 1),
-        .Package(url: "https://github.com/PureSwift/CFontConfig.git", majorVersion: 1),
-        .Package(url: "https://github.com/PureSwift/CFreeType.git", majorVersion: 1)
+        .Package(url: "https://github.com/airalex/CCairo.git", majorVersion: 1),
+        .Package(url: "https://github.com/airalex/CFontConfig.git", majorVersion: 1),
+        .Package(url: "https://github.com/airalex/CFreeType.git", majorVersion: 1)
     ],
     exclude: ["Xcode", "Sources/CairoUnitTests"]
 )
