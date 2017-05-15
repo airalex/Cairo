@@ -132,10 +132,5 @@ public final class Surface {
         return surfaceType
     }
     
-    public var bytes: UnsafeMutablePointer<UInt8> {
-        return cairo_image_surface_get_data(internalPointer)!
-    }
-    
-    
 }
 
