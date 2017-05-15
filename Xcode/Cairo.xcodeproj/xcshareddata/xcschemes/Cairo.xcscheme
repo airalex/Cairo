@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_27"
+               BlueprintIdentifier = "OBJ_30"
                BuildableName = "Cairo.framework"
                BlueprintName = "Cairo"
                ReferencedContainer = "container:Xcode/Cairo.xcodeproj">
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_46"
+               BuildableName = "CairoTests.xctest"
+               BlueprintName = "CairoTests"
+               ReferencedContainer = "container:Xcode/Cairo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -45,7 +55,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_27"
+            BlueprintIdentifier = "OBJ_30"
             BuildableName = "Cairo.framework"
             BlueprintName = "Cairo"
             ReferencedContainer = "container:Xcode/Cairo.xcodeproj">
